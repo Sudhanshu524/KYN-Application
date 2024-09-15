@@ -1,0 +1,9 @@
+.terms-container{
+    text-align: center;
+    min-height: calc(100vh - 60px);
+    overflow: auto;
+    position: relative;
+    padding-top: 60px;
+    background: rgb(235,255,252);
+background: linear-gradient(90deg, rgba(235,255,252,1) 0%, rgba(241,204,255,1) 35%, rgba(184,239,255,1) 100%);
+}

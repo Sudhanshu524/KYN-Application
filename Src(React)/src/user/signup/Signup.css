@@ -1,0 +1,82 @@
+.signup-container {
+    text-align: center;
+    background: rgb(235,255,252);
+    background: linear-gradient(90deg, rgba(235,255,252,1) 0%, rgba(241,204,255,1) 35%, rgba(184,239,255,1) 100%);
+    height: 1020px;
+}
+
+
+.signup-content {
+    background: rgb(216, 184, 221);
+    box-shadow: 0 1px 11px rgba(0, 0, 0, 0.27);
+    border-radius: 2px;
+    width: 500px;
+    display: inline-block;
+    margin-top: 30px;
+    vertical-align: middle;
+    position: relative;    
+    padding: 35px;
+}
+.signupBtn {
+	box-shadow:inset 0px 0px 0px 0px #bbdaf7;
+	background:linear-gradient(to bottom, #dc78cd 5%, #dc78cd 100%);
+	background-color:#d483c8;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Verdana;
+	font-size:15px;
+
+	padding:6px 76px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #b150c9;
+}
+.signupBtn:hover {
+	background:linear-gradient(to bottom, #d141bb 5%, #d141bb 100%);
+	background-color:#db52f0;
+}
+.signupBtn:active {
+	position:relative;
+	top:1px;
+}
+
+.social-btn {
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(116, 38, 128) ;
+}
+
+.social-btn img {
+    height: 32px;
+    float: left;
+    margin-top: 10px;
+}
+
+.social-btn.google {
+    margin-top: 7px;
+}
+
+.social-btn.facebook img {
+    height: 24px;
+    margin-left: 3px;
+}
+
+.social-btn.github img {
+    height: 24px;
+    margin-left: 3px;
+}
+
+.login-link {
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+}
+
+.signup-title {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: rgba(0, 0, 0, 0.65);
+}

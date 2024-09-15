@@ -1,0 +1,58 @@
+.app-header {
+    height: 60px;
+    position: relative;
+    z-index: 10;
+    background: rgb(163,118,180);
+background: linear-gradient(90deg, rgba(163,118,180,1) 0%, rgba(130,84,219,1) 39%, rgba(192,190,213,1) 100%);
+}
+
+.app-title {
+    line-height: 60px;
+    vertical-align: middle;
+    font-size: 1.35em;
+    color: #43004a;
+}
+
+.app-title:hover {
+    line-height: 60px;
+    vertical-align: middle;
+    font-size: 1.35em;
+    color: #ffffff;
+}
+
+.app-branding {
+    float: left;
+    color: #000000;
+}
+
+.app-options {
+    float: right;
+}
+
+.app-nav ul {
+    list-style-position: none;
+    margin: 0;
+    padding: 0;
+}
+
+.app-nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.app-nav ul li a {
+    display: inline-block;
+    line-height: 60px;
+    vertical-align: middle;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #80168c;
+}
+
+.app-nav ul li a:hover {
+    color: #ffffff;
+}
+
+.app-nav ul li a.active {
+    color: #000000;
+}
